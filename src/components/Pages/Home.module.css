@@ -1,0 +1,46 @@
+.offer {
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  position: relative;
+  top: 82px;
+  height: 400px;
+  background-position: center;
+  z-index: 0;
+}
+
+.voucher {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: -35px;
+  height: 200px;
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  z-index: 0; /* Ensure it's not higher than the navigation */
+}
+
+.mobile {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  color: white;
+  z-index: 1;
+}
+
+.apple-icon {
+  width: 50px;
+}
+
+.voucher a {
+  color: white;
+  cursor: pointer;
+}

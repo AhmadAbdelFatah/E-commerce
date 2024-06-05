@@ -1,0 +1,35 @@
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  gap: 5px;
+}
+.offer__left{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.offer__left a{
+  color: white;
+  font-weight: 300;
+}
+.offer p{
+  padding-left: 2px;
+  font-weight: 300;
+}
+.offer select{
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+
+}
+@media(max-width:768px){
+  .offer p{
+font-size: 12px;
+  }
+}

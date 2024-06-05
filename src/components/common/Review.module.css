@@ -1,0 +1,25 @@
+.review {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rating {
+  margin-top: -15px;
+}
+
+.reviewNumber {
+  color: gray;
+  font-weight: 600;
+  margin-top: 1px;
+}
+.star {
+  font-size: 18px;
+}
+
+.gold {
+  color: #ffd700;
+}
+
+.gray {
+  color: gray;
+}

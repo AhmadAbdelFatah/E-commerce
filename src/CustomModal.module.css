@@ -1,0 +1,8 @@
+.modalButton{
+  background-color: var(--primaryColor);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+.loginWrapper{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginWrapper input::placeholder,
+  .loginWrapper h2 + p{
+  font-size: 18px;
+}
+.loginWrapper form{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginWrapper input{
+  padding: 20px 20px 5px;
+  width: 200px;
+  height: 50px;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  caret-color: var(--primaryColor);
+}
+.loginFooter{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.loginButton{
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+}
+.loginFooter a{
+  color: var(--primaryColor);
+  text-decoration: none;
+}
+.createAccount{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.createAccount a,
+  .createAccount p{
+  color: darkgray;
+  font-size: 18px;
+}
+.createAccount a{
+  color: var(--primaryColor);
+}

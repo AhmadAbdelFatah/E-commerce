@@ -1,0 +1,64 @@
+.limitedTimeProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  height: 600px;
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+}
+
+.limitedTimeProduct img {
+  width: 350px;
+  height: 200px;
+}
+.limitedProductBox{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.label{
+  color:var(--labelColor);
+  margin-bottom: -8px;
+}
+.content{
+  font-weight: bold;
+  font-size: 20px;
+}
+.limitedProductBox button{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  color: var(--white);
+  background-color: var(--labelColor);
+  border: none;
+  border-radius: 6px;
+}
+
+.customCountDown {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+.customTimeStyle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: -14px;
+}
+.customLabelStyle {
+  font-size: 14px;
+  margin-top: 10px;
+
+}

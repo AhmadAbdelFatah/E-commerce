@@ -1,0 +1,106 @@
+.newDiscount {
+  background: var(--labelColor);
+  color: var(--white);
+}
+
+.scrollableList {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 20px;
+}
+.scrollableListWithoutScrollbar {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  gap: 5px;
+  width: 250px;
+  padding: 10px;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 6px;
+}
+.productLink {
+  text-decoration: none;
+  color: var(--black);
+}
+.productImg {
+  width: 150px;
+  height: 150px;
+}
+.discount,
+.newDiscount {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+.newDiscount {
+  background-color: var(--labelColor);
+  color: var(--white);
+}
+.productIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: flex-start;
+}
+.lovedProductsButton,
+.visibleWrapper {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: none;
+}
+.lovedProducts,
+.visible {
+  width: 20px;
+}
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: -20px;
+}
+.productDetails:not(:first-child) {
+  margin-top: -5px;
+}
+.productName {
+  font-weight: bold;
+}
+.price {
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.secondaryPrice {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.productPrice {
+  font-size: 16px;
+  color: var(--primaryColor);
+}

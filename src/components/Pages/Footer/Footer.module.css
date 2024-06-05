@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+}
+.inputEmail {
+  width: 120px;
+  height: 30px;
+}
+.inputEmail input {
+  padding-left: 5px;
+  background-color: black;
+  width: inherit;
+  height: inherit;
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: 0;
+}
+.lightP {
+  color: lightgrey;
+  margin-top: -20px;
+}
+
+.wrapperLinks {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.links {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-left: 5px;
+  padding: 5px;
+}
+.links img {
+  width: 16px;
+  height: 16px;
+}
+.linksContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.linksContent p {
+  font-size: 12px;
+  margin-bottom: -15px;
+}
+.qr {
+  margin: 0 5px;
+  border: 1px solid white;
+  background-color: white;
+}
+.downloadLinks {
+  display: flex;
+}
+.socialLinks{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.socialLinks li img{
+  width: 20px;
+  height: 20px;
+}
