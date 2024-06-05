@@ -1,7 +1,22 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [
+    react(),
+    {
+      name: 'mime-type-jsx',
+      enforce: 'pre',
+      transform(code, id) {
+        if (id.endsWith('.jsx')) {
+          return {
+            code,
+            map: null,
+            // Set the correct content type for .jsx files
+            contentType: 'application/javascript',
+          };
+        }
+      },
+    },
+  ],
+});
