@@ -12,7 +12,6 @@ export default defineConfig({
           return {
             code,
             map: null,
-            // Set the correct content type for .jsx files
             contentType: 'application/javascript',
           };
         }
